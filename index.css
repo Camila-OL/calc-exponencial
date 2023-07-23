@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+.area-int {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.area-calc {
+    display: flex;
+    width: 400px;
+    background-color: #222;
+    color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 15px 15px 15px #000;
+}
+.area-calc h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20%;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+.area-calc input {
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    background-color: #222;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px #000;
+    color: #bc6ff1;
+}
+.area-calc input::placeholder {
+    font-size: 15px;
+}
+.area-calc button {
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 3%;
+    width: 200px;
+    background-color: #222;
+    box-shadow: 5px 5px 5px 5px #000;
+    color: #bc6ff1;
+    border: 0;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
